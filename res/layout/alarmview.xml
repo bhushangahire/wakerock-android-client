@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Wakerock Alarm"
+    android:id="@+id/text_view"
+    android:textSize="30dp"
+    android:gravity="center_horizontal"
+    />
+<AnalogClock
+    android:id="@+id/AnalogClock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    />
+<DigitalClock
+    android:id="@+id/DigitalClock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:id="@+id/text_alarmtime"
+    android:gravity="center_horizontal"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:id="@+id/text_state"
+    android:gravity="center_horizontal"
+    />
+<Button android:id="@+id/button_modify"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Modify Alarm"
+    android:layout_marginTop="30dp"
+    />
+<Button android:id="@+id/button_cancel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Cancel Alarm"
+    android:layout_marginTop="30dp"
+    />
+</LinearLayout>

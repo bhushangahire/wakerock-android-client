@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Wakerock Alarm\nSettings"
+    android:id="@+id/text_view"
+    android:textSize="30dp"
+    android:gravity="center_horizontal"
+    />
+<TextView android:id="@+id/dateDisplay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:gravity="center_horizontal"
+    android:textSize="25dp"
+    android:layout_marginTop="30dp"
+    />
+<Button android:id="@+id/pickDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Change the date"
+    android:layout_marginTop="10dp"
+    />
+<TextView android:id="@+id/timeDisplay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:gravity="center_horizontal"
+    android:textSize="25dp"
+    android:layout_marginTop="30dp"
+    />
+<Button android:id="@+id/pickTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Change the time"
+    android:layout_marginTop="10dp"
+    />
+<Button android:id="@+id/submitRegistration"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:layout_marginTop="30dp"
+    />
+</LinearLayout>
