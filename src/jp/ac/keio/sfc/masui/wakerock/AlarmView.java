@@ -84,7 +84,7 @@ public class AlarmView extends Activity {
 					@Override
 					public void run() {
 						count++;
-						if(count == 60) {
+						if(count == Consts.TIME_TO_CHECK_MATCHING) {
 							api_access_matched();
 							//AlarmView.this.matched = true;
 							//AlarmView.this.waited = false;

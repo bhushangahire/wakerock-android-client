@@ -23,4 +23,5 @@ public class Consts {
 	public static final String EXTRA_KEY_ALARM_DAY = "ALARM_DAY";
 	public static final String EXTRA_KEY_ALARM_HOUR = "ALARM_HOUR";
 	public static final String EXTRA_KEY_ALARM_MINUTE = "ALARM_MINUTE";
+	public static final int TIME_TO_CHECK_MATCHING = 60;
 }
